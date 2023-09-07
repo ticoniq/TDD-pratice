@@ -3,7 +3,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [🎯  School Library](#-oop-school-library)
+- [🎯  TDD Project](#-about-project)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -19,7 +19,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 🎯TDD-pratice<a name="about-project"></a>
+# 🎯TDD-project<a name="about-project"></a>
 This project was worked on to practice TDD in the Ruby programming language
 
 
@@ -110,7 +110,7 @@ to run test cases individually.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/migo1/school-library/issues).
+Feel free to check the [issues page](https://github.com/ticoniq/TDD-pratice/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
