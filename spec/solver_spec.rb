@@ -44,5 +44,22 @@ describe Solver do
     end
   end
 
-  
+  context '#fizzbuzz' do
+    it 'returns fizz if number is divisible by 3' do
+      mod_three = @solve.fizzbuzz(6)
+      expect(mod_three).to eql 'fizz'
+    end
+    it 'returns buzz if number is divisible by 5' do
+      mod_five = @solve.fizzbuzz(10)
+      expect(mod_five).to eql 'buzz'
+    end
+    it 'returns fizzbuzz if number is divisible by 3 and also by 5' do
+      mod_three_and_five = @solve.fizzbuzz(30)
+      expect(mod_three_and_five).to eql 'fizzbuzz'
+    end
+    it 'returns number if number is not divisible by 3 or 5' do
+      num = @solve.fizzbuzz(19)
+      expect(num).to eql '19'
+    end
+  end
 end
