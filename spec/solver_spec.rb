@@ -30,5 +30,19 @@ describe Solver do
     end
   end
 
+  context '#reverse' do
+    it 'checks if the reverse method exists' do
+      expect(@solve).to respond_to :reverse
+    end
+
+    it 'reverses Hello to olleh' do
+      expect(@solve.reverse('Hello')).to eql 'olleh'
+    end
+
+    it 'reverses STABLE to elbats' do
+      expect(@solve.reverse('STABLE')).to eql 'elbats'
+    end
+  end
+
   
 end

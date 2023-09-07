@@ -8,4 +8,13 @@ class Solver
       num_factorial
     end
   end
+
+  def reverse(string)
+    split_str = string.downcase.chars
+    reverse_str = []
+    split_str.each { |str| reverse_str.unshift(str) }
+    reverse_str.join
+  end
+
+  
 end
